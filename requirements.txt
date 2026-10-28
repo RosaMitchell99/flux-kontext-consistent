@@ -1,0 +1,25 @@
+# Python 3.10+
+# Install a matching PyTorch/torchvision pair for your OS and CUDA setup first:
+# https://pytorch.org/get-started/locally/
+# The remaining dependencies can then be installed with:
+#   pip install -r requirements.txt
+
+# Core image generation and model execution
+torch>=2.6.0
+torchvision>=0.21.0
+accelerate>=1.0.0
+diffusers>=0.40.0
+transformers>=5.0.0
+huggingface_hub>=0.30.0
+safetensors>=0.4.0
+sentencepiece>=0.2.0
+
+# Benchmark generation and LLM-backed agent features
+openai>=1.0.0
+httpx>=0.27.0
+python-dotenv>=1.0.0
+
+# Metrics, image handling, and interactive UI
+numpy>=1.24.0
+Pillow>=10.0.0
+streamlit>=1.35.0

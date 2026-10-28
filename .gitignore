@@ -1,0 +1,56 @@
+# Local credentials
+.env
+.env.*
+
+# Benchmark data and evaluation reports
+test_bench/
+**/*.json
+**/*.jsonl
+**/*.csv
+**/*.tsv
+**/*.parquet
+**/*.sqlite
+**/*.sqlite3
+**/*.pkl
+**/*.pickle
+**/*.npy
+**/*.npz
+
+# Generated images, masks, and run outputs
+**/outputs/
+**/results/
+**/generated/
+**/masks/
+**/reference_images/
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.bmp
+*.tif
+*.tiff
+!assets/**
+
+# Local thesis and model files
+*.pdf
+*.safetensors
+*.bin
+*.ckpt
+*.pth
+*.pt
+*.onnx
+*.engine
+*.gguf
+
+# Python and tool caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+venv/
+.venv/
+wandb/
+mlruns/
+*.log
